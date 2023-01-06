@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [1.23]
+        nginx: [1.23]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
