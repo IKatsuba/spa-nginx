@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        nginx: [1.23]
+        nginx: [1.23,1.25.2,1.25.2-alpine]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
